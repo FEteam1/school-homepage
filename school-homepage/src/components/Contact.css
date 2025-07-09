@@ -1,0 +1,40 @@
+.contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  margin-bottom: 20px;
+}
+
+.map-image {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.info-list li {
+  font-size: 1rem;
+  color: black;
+}
+
+.status {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+}
+
+.status.open {
+  color: green;
+}
+
+.status.closed {
+  color: red;
+}
