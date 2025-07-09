@@ -1,9 +1,13 @@
 import React from "react";
 import "./App.css";
 
+import Home from "./components/Home";
+
+
 import Notice from "./components/Notice";
 import Club from "./components/Club";
 import Contact from "./components/Contact";
+
 
 
 function App() {
@@ -14,21 +18,19 @@ function App() {
       </header>
 
 
-      <section id="notice">
-        <Notice />
+      <section id="home">
+        <Home />
       </section>
 
-
+      
       <section id="club">
         <Club />
       </section>
 
 
-
       <section id="contact">
         <Contact />
       </section>
-
 
       <footer>
         <p>© 2025 우리학교. All rights reserved.</p>
@@ -36,5 +38,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
