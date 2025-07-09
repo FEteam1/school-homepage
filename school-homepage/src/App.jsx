@@ -3,7 +3,7 @@ import "./App.css";
 
 import Club from "./components/Club";
 import Contact from "./components/Contact";
-=
+
 
 function App() {
   return (
