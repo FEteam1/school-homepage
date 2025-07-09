@@ -40,11 +40,6 @@ function Home() {
   return (
     <div className="content">
       <h1 className="title">경북소프트웨어마이스터고등학교</h1>
-      <img
-        src="https://yt3.googleusercontent.com/e4OKLY8LHXKGOrvlxlR8bQaBUU5bmCwS8vqehAC_xfdMFbBUbaVeluCuoDpVGQNLLbKlWtP9Aw=s900-c-k-c0x00ffffff-no-rj"
-        alt="school logo"
-        className="logo"
-      />
 
       {/* 공지 카드 */}
       <div className="card">
